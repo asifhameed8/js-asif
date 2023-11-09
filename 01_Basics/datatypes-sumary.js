@@ -17,3 +17,20 @@ const bigNumber = 34444533355332444n
 
 // non primitive/ Reference type
 // Array, Object, function
+
+const heros = ["asif", "ayesha", "perveen", "Hameed"]
+
+let obj =
+{
+    name: "asif",
+    age : 42,
+}
+
+const myFunction = function(){
+    console.log("hello world")
+}
+
+console.log(typeof bigNumber)
+console.log(typeof outsideTemp)
+console.log(typeof myFunction)
+console.log(typeof anotherId)
