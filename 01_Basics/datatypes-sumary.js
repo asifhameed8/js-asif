@@ -48,7 +48,14 @@ anothername = "newValue"
 console.log(myYoutubename);
 console.log(anothername);
 
-let user = {
+let userOne = {
     email: "user@google.com",
-    easypaesa: 03344038368
+    easypaesa: "03344038368"
 }
+
+let userTwo = userOne;
+
+userTwo.email = "asif@google.com"
+
+console.log(userOne.email)
+console.log(userOne.email)
