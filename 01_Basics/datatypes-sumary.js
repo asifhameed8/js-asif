@@ -34,3 +34,21 @@ console.log(typeof bigNumber)
 console.log(typeof outsideTemp)
 console.log(typeof myFunction)
 console.log(typeof anotherId)
+
+
+// ++++++++++++++++++++++++++++++++++++
+
+// Stack ( primitive / by value) Heap ( Non primitive/ by refrence)
+
+let myYoutubename = "asifhameeddev"
+
+let anothername = myYoutubename
+anothername = "newValue"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let user = {
+    email: "user@google.com",
+    easypaesa: 03344038368
+}
