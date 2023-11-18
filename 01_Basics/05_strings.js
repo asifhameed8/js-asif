@@ -10,5 +10,9 @@ const gameName = new String("Asif-Hameed");
 var newString = gameName.substring(0,4);
 // console.log(newString);
 
-var anotherString = gameName.slice(-8,1);
+var anotherString = gameName.slice(-11,3);
 console.log(anotherString);
+
+const newStringOne = "    Asif.   "
+console.log(newStringOne)
+console.log(newStringOne.trim())
