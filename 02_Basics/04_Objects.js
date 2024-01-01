@@ -17,7 +17,7 @@ const regularUser = {
     }
 }
 
-console.log(regularUser.fullname.userfullname.firstname)
+// console.log(regularUser.fullname.userfullname.firstname)
 
 const obj1 = { 1: "a", 2: "b"}
 const obj2 = { 3: "c", 4: "d"}
@@ -34,4 +34,23 @@ const obj3 = {...obj1,...obj2}
 // console.log(Object.keys(tinderUser))
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
-console.log(Object.hasOwnProperty('name'))
+// console.log(Object.hasOwnProperty('name'))
+
+const course = {
+ coursename : "jshindi",
+ price: 9.99,
+ courseinstructor: "hitesh"
+}
+
+// console.log(course.courseinstructor)
+const {courseinstructor : instructor} = course
+
+// console.log(courseinstructor)
+
+console.log(instructor) // object desctructing
+
+// {
+//     "name":"Asif",
+//     "coursename":"JS in Urdu",
+//     "price": "Free"
+// }
