@@ -14,3 +14,25 @@ if (true){
  console.log(a)
 // console.log(b)
 //console.log(c)
+
+function one(){
+  const username = "asif"
+
+  function two(){
+    const website = "youtube"
+    console.log(username)
+  }
+  //console.log(website)
+  two()
+}
+//one()
+
+if(true){
+    const username = "asif"
+  if(username === "asif"){
+    const website = " youtube"
+    console.log(username + website)
+  }
+  //console.log(website)
+}
+//console.log(username)
