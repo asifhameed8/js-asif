@@ -36,3 +36,23 @@ if(true){
   //console.log(website)
 }
 //console.log(username)
+
+// ++++++++++++++++++++++++ intresting ++++++++++++++++++++
+
+console.log(addone(5))
+
+function addone(num){
+  return num+1;
+}
+
+
+
+// expressions
+
+
+
+const addTwo = function(num){
+  return (num + 2);
+}
+
+addTwo(5)
