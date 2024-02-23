@@ -13,7 +13,14 @@ for (const num in arr) {
 const greetings = "Hello World"
 
 for (const greet of greetings) {
-   console.log(`Each Character is ${greet}`)
+   //console.log(`Each Character is ${greet}`)
 }
 
 // Maps
+
+const map = new Map()
+map.set('PK', 'Pakistan')
+map.set('US', 'United State of America')
+map.set('FR', 'France')
+map.set('FR', 'France')
+console.log(map);
