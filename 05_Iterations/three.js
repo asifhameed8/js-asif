@@ -23,4 +23,17 @@ map.set('PK', 'Pakistan')
 map.set('US', 'United State of America')
 map.set('FR', 'France')
 map.set('FR', 'France')
-console.log(map);
+//console.log(map);
+
+for (const [key, value] of map) {
+   console.log(key, ':-' , value)
+}
+
+const myObject = {
+   game1 : 'NFS',
+   game2 : 'spiderman',
+}
+
+for (const [key,value] of myObject) {
+   console.log(key, ':- ', value);
+}
